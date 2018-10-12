@@ -39,6 +39,15 @@ import oracle.iqjb.hu.pm.dm.Department;
  * http://localhost:7001/pm-server-web/webresources/departmentservices
  * http://localhost:7001/pm-server-web/webresources/departmentservices/get/10 (ahol a 10 az id)
  * http://localhost:7001/pm-server-web/webresources/departmentservices/update/10 (ahol az id 10, es a requestBody az add-hoz hasonloan)
+ * 
+ * 
+ * git:
+ * 
+ * git init
+ * git add .
+ * git commit -m "commit"
+ * git remote add origin https://github.com/lajosdobos/java-ee-ejb.git ie
+ * git push -u origin master
  */
 @Path("departmentservices")
 @RequestScoped
